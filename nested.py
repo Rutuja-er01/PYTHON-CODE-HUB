@@ -1,0 +1,11 @@
+exam={
+    "name":"piya,parth,rutuja",
+    "marks":{
+    "physics":90,
+    "chemistry":78,
+    "maths":100
+    }}
+print(exam)
+exam["marks"]["maths"]=99
+print(exam)
+print(exam["physics"]["marks"])
